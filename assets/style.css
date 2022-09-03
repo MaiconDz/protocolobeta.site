@@ -1,0 +1,26 @@
+.span-btn{
+	padding: 12px 10px;
+	width: 100%;
+	color: #E4E4E4;
+	background: #17BA05;
+	border: 1px solid #555;
+	border-radius: 5px;
+	user-select: none;
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+	left:50%;
+	transform: translate(-50%);
+}
+.span-btn2{
+	color: #FFF804;
+}
+
+.span-btn:hover{
+	transition: 0.25s;
+	background: #13C300;
+}
+
+.a-btn{
+	position: relative;
+}
