@@ -61,6 +61,12 @@ body{
 	font-family: FreeMono;
 }
 
+footer{
+	text-align: center;
+	text-align: bottom;
+	text-anchor: bottom;
+}
+
 @media screen and (max-width: 768px){
 
 	.span-btn{
