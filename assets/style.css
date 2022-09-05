@@ -65,3 +65,70 @@ footer{
 	text-align: center;
 	text-anchor: bottom;
 }
+
+@media(max-width: 768px){
+
+	.span-btn{
+		padding: 12px 10px;
+		width: 75%;
+		color: #E4E4E4;
+		background: #17BA05;
+		border: 1px solid #555;
+		border-radius: 5px;
+		user-select: none;
+		cursor: pointer;
+		text-align: center;
+		position: relative;
+		left:50%;
+		transform: translate(-50%);
+		font-family: fantasy;
+		font-size: 25px;
+		color: yellow;
+	}
+
+	.span-btn2{
+		color: #FFF804;
+		font-size: 15px;
+	}
+
+	.span-btn:hover{
+		transition: 0.25s;
+		background: #13C300;
+	}
+
+	.a-btn{
+		position: relative;
+	}
+
+	.textoVSL
+	{
+		padding: 15px 0px;
+		font-family: Comic Sans MS;
+		font-size: 18px;
+		font-weight: normal;
+		text-align: center;
+		width: 100%;
+		color: white;
+		position: relative;
+		right: 0%;
+	}
+	.textoHeadline1{
+		font-size: 30px;
+		width: 100%;
+		font-weight: bolder;
+		position: relative;
+		left: 0%;
+		color: yellow;
+		font-family: Comic Sans MS;
+		padding: 25px 0px;
+	}
+	.textoHeadline2{
+		width: 100%;
+		font-size: 20px;
+		padding: 15px 0px;
+	}
+
+	body{
+		font-family: FreeMono;
+	}
+}
