@@ -1,10 +1,9 @@
 .span-btn{
 	padding: 12px 10px;
-	width: 100%;
-	color: #E4E4E4;
-	background: #17BA05;
+	width: 125%;
+	background: #f22522;
 	border: 2px solid #555;
-	border-radius: 25px;
+	border-radius: 35px;
 
 	user-select: none;
 	cursor: pointer;
@@ -27,7 +26,31 @@
 
 .span-btn:hover{
 	transition: 0.25s;
-	background: #13C300;
+	background: yellow;
+	color: red;
+	width: 125%;
+	border-radius: 35px;
+}
+
+.desconto{
+	padding: 0px 0px;
+	font-size: 30px;
+	text-decoration: line-through;
+	color: #f22522;
+}
+.desconto2{
+	padding: 0px 0px;
+	font-size: 25px;
+}
+.desconto3{
+	padding: 0px 0px;
+	font-size: 35px;
+	color: #f7e700;
+}
+.Imediato{
+	width: 100%;
+	position: relative;
+	padding: 12px 0px;
 }
 
 .a-btn{
@@ -77,11 +100,10 @@ body{
 
 	.span-btn{
 		padding: 12px 10px;
-		width: 85%;
-		color: #E4E4E4;
-		background: #17BA05;
+		width: 100%;
+		background: #f22522;
 		border: 2px solid #555;
-		border-radius: 25px;
+		border-radius: 35px;
 		user-select: none;
 		cursor: pointer;
 		text-align: center;
@@ -100,7 +122,10 @@ body{
 
 	.span-btn:hover{
 		transition: 0.25s;
-		background: #13C300;
+		background: yellow;
+		color: red;
+		width: 100%;
+		border-radius: 35px;
 	}
 
 	.a-btn{
@@ -142,5 +167,21 @@ body{
 	body footer{
 		text-align: center;
 		text-anchor: bottom;
+	}
+
+	.desconto{
+		padding: 0px 0px;
+		font-size: 25px;
+		text-decoration: line-through;
+		color: red;
+	}
+	.desconto2{
+		padding: 0px 0px;
+		font-size: 20px;
+	}
+	.desconto3{
+		padding: 0px 0px;
+		font-size: 30px;
+		color: yellow;
 	}
 }
