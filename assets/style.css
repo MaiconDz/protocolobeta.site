@@ -1,0 +1,192 @@
+.span-btn{
+	padding: 12px 10px;
+	width: 125%;
+	background: #f22522;
+	border: 2px solid #555;
+	border-radius: 35px;
+
+	user-select: none;
+	cursor: pointer;
+
+	text-align: center;
+	position: relative;
+	left:50%;
+	transform: translate(-50%);
+
+	font-family: fantasy;
+	font-size: 40px;
+	color: yellow;
+
+}
+.span-btn2{
+	color: #FFF804;
+	font-size: 20px;
+	cursor: default;
+}
+
+.span-btn:hover{
+	transition: 0.25s;
+	background: yellow;
+	color: red;
+	width: 125%;
+	border-radius: 35px;
+}
+
+.desconto{
+	padding: 0px 0px;
+	font-size: 30px;
+	text-decoration: line-through;
+	color: #f22522;
+}
+.desconto2{
+	padding: 0px 0px;
+	font-size: 25px;
+}
+.desconto3{
+	padding: 0px 0px;
+	font-size: 35px;
+	color: #f7e700;
+}
+.Imediato{
+	width: 100%;
+	position: relative;
+	padding: 12px 0px;
+}
+
+.a-btn{
+	position: relative;
+}
+
+.textoVSL
+{
+	padding: 20px 0px;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: center;
+	width: 125%;
+	color: white;
+	position: relative;
+	right: 10%;
+}
+.textoHeadline1{
+	font-size: 50px;
+	width: 125%;
+	font-weight: bold;
+	position: relative;
+	left: -10%;
+	color: yellow;
+	font-family: Comic Sans MS;
+	padding: 25px 0px;
+}
+.textoHeadline2{
+	font-size: 30px;
+	padding: 15px 0px;
+}
+
+body footer{
+		text-align: center;
+		text-anchor: bottom;
+}
+
+body{
+	font-family: FreeMono;
+	position: relative;
+	text-align: center;
+}
+
+
+@media (max-width: 768px){
+
+	.span-btn{
+		padding: 12px 10px;
+		width: 100%;
+		background: #f22522;
+		border: 2px solid #555;
+		border-radius: 35px;
+		user-select: none;
+		cursor: pointer;
+		text-align: center;
+		position: relative;
+		left:50%;
+		transform: translate(-50%);
+		font-family: fantasy;
+		font-size: 25px;
+		color: yellow;
+	}
+
+	.span-btn2{
+		color: #FFF804;
+		font-size: 15px;
+	}
+
+	.span-btn:hover{
+		transition: 0.25s;
+		background: yellow;
+		color: red;
+		width: 100%;
+		border-radius: 35px;
+	}
+
+	.a-btn{
+		position: relative;
+	}
+
+	.textoVSL
+	{
+		padding: 15px 0px;
+		font-family: Comic Sans MS;
+		font-size: 16px;
+		font-weight: lighter;
+		text-align: center;
+		width: 100%;
+		color: white;
+		position: relative;
+		right: 0%;
+	}
+	.textoHeadline1{
+		font-size: 30px;
+		width: 100%;
+		font-weight: bolder;
+		position: relative;
+		left: 0%;
+		color: yellow;
+		font-family: Comic Sans MS;
+		padding: 25px 0px;
+	}
+	.textoHeadline2{
+		width: 100%;
+		font-size: 20px;
+		padding: 15px 0px;
+	}
+
+	body{
+		font-family: FreeMono;
+	}
+
+	body footer{
+		text-align: center;
+		text-anchor: bottom;
+	}
+
+	.desconto{
+		padding: 0px 0px;
+		font-size: 25px;
+		text-decoration: line-through;
+		color: red;
+	}
+	.desconto2{
+		padding: 0px 0px;
+		font-size: 20px;
+	}
+	.desconto3{
+		padding: 0px 0px;
+		font-size: 30px;
+		color: yellow;
+	}
+	.Imediato{
+	width: 100%;
+	position: relative;
+	padding: 12px 0px;
+	}
+}
