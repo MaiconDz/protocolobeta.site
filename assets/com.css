@@ -75,7 +75,7 @@
 }
 
 .textoHeadline2{
-	font-size: 30px;
+	font-size: 35px;
 	padding: 15px 0px;
 }
 
@@ -318,19 +318,10 @@ tr
 		position: relative;
 		right: 0%;
 	}
-	.textoHeadline1{
-		font-size: 30px;
-		width: 100%;
-		font-weight: bolder;
-		position: relative;
-		left: 0%;
-		color: yellow;
-		font-family: Comic Sans MS;
-		padding: 25px 0px;
-	}
+
 	.textoHeadline2{
 		width: 100%;
-		font-size: 20px;
+		font-size: 28px;
 		padding: 15px 0px;
 	}
 
